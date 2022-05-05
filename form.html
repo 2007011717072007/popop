@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<form action="/action_page.php">
+   <label for=nome1 > Nome: </label> <br>
+     <input type="text" id=nome1 name="nome">
+   <br>
+   <label for=sobre> Sobrenome: </label> <br>
+     <input type="text id=sobre name="sobrenome">
+	 <br>
+   <label for=senha> Senha: </label><br>
+   <input type="password" id=nome1 name="nome" value="">
+   <br>
+   <label for=email> e-mail: </label><br>
+   <input type="email" id=email name"email" value="">
+	 <br>
+	 <br>
+	 <input type="submit" value="Enviar">
+	 <input type="reset" value="Limpar">
+	 <input type="button" value="Imprimir" onclick="print()">
+   <label for="area"> digite sua opinião </label> <br>
+   <textarea id="area" name="message" rows="10" cols="30"> </textarea> <br> <br>
+   <label for=dt_nascimento> Data e Hora de Nascimento: </label><br>
+    <input type="datetime-local" id=dt_nascimento name="nascimento" value="">
+	<br><br>
+	<label for=dtcontrato> Data de Contratação: </label><br>
+	<input type="month" id=dt_contrato name="contrato" value="">
+	<br>
+	<label for=qtd> Quantidade </label>(entre 1 e 10):
+	<input type="number" id=qtd name="qtd" min="1" max="10">
+	<input type="Submit">
+</form>
+
+
+</body>
+</html>
